@@ -11,7 +11,7 @@ def preprocess_text(text):
    text = re.sub(r'\s+', ' ', text).strip() # Remove extra whitespaces
    return text
 
-file_path = "/content/chat.txt"
+file_path = "./content/chat.txt"
 with open(file_path, "r", encoding="utf-8") as file:
    chat_history = file.read()
 
